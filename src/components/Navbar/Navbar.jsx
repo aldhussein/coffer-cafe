@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../../assets/website/coffee_logo.png";
 import { FaCoffee } from "react-icons/fa";
 

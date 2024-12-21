@@ -1,4 +1,3 @@
-import React from "react";
 import HeroPng from "../../assets/coffee2.png";
 
 const Hero = () => {

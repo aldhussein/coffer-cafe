@@ -1,4 +1,3 @@
-import React from "react";
 import Img2 from "../../assets/coffee2.png";
 const ServicesData = [
   {
