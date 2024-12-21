@@ -1,3 +1,4 @@
+import { data } from "autoprefixer";
 import Img2 from "../../assets/coffee2.png";
 const ServicesData = [
   {
@@ -42,6 +43,7 @@ const Services = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
             {ServicesData.map((service) => (
               <div
+               key={data.prefixes}
                 data-aos="fade-up"
                 data-aos-delay={service.aosDelay}
                 className="rounded-2xl bg-white hover:bg-primary hover:text-white relative shadow-xl duration-high group max-w-[300px]"

@@ -17,7 +17,7 @@ const Hero = () => {
                 <span
                   data-aos="zoom-out"
                   data-aos-delay="300"
-                  class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-primary/90 font-cursive"
+                  className="bg-clip-text text-transparent bg-gradient-to-b from-primary to-primary/90 font-cursive"
                 >
                   Coffee
                 </span>{" "}
